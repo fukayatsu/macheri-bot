@@ -1,0 +1,9 @@
+cron:
+- description: every 1 minutes
+  url: /tweet
+  schedule: every 1 minutes
+  timezone: Asia/Tokyo
+- description: every 6 hours
+  url: /grow
+  schedule:  every 6 hours
+  timezone: Asia/Tokyo
